@@ -15,6 +15,7 @@ const App = () => {
     dispatch(fetchAllData());
   }, [dispatch])
 
+
   return allTickets ? (
     <div style={{paddingTop : "10px"}} >
       <TopNav/>
